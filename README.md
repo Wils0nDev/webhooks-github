@@ -48,4 +48,15 @@
 # -- .ENV --- 
     - En tus variables de enterno, crear uno nuevo para el url de discord
     Ejemplo:
+    
     DISCORD_WEBHOOK_URL='TU_URL_QUE_TE_BRINDA'
+    SECRET_TOKEN=LLAVE_SECRETA_WEBHOOK_GITHUB
+
+ # -- AUTH WEBHOOK -- 
+
+    - Para que nuestro webhook solo permita peticiones desde nuestro github y que no cualquiera pueda usar nu estro servicio, este nos brinda la opción de colocar un token secret
+
+    -En el webhook creado, le damos editar y en la parte de "Secret" le damos click a 
+    "Change Secret"
+    
+    - Posterior mente colocamos un llave secreta unica que usaremos como token
