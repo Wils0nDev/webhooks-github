@@ -1,3 +1,19 @@
+# WEBHOOKS 
+ - Digamos que tenemos una aplicación que depende totalmente del frontend(Solo es una suposición ) , por ejemplo un e-commerce, y un usuario esta haciendo una compra, este se dirige a la pasarela de pago (paypal) a realizar el pago, una vez ya pagado, "EL USUARIO CIERRA LA PAGINA". y despues de esto PAYPAL le regresa la respuesta. Pero el usuario ya cerro la pagina. 
+  - "Entonces no es bueno depender siempre del cliente"
+
+ - Es aqui donde entran los WebHooks 
+
+ ## ¿Qué es un webhook y para qué sirve?
+Un webhook es una función de devolución de llamadas que se basa en el protocolo HTTP para que dos interfaces de programación de aplicaciones (API) se comuniquen mediante eventos de forma ligera. Muchas aplicaciones web los utilizan para recibir pequeñas cantidades de datos de otras aplicaciones, pero también sirven para activar flujos de trabajo de automatización en los entornos de GitOps.
+
+## ¿ Que implementaremos? 
+
+En esta aplicación veremos como se implementa un webhook para trabajar con github y discord
+- Github enviara la petición a nuestro servidor (api), y nuestro webhook le respondera  a discord
+
+
+# INTEGRACION DE GITHUB Y DISCORD 
 
 # PASOS PARA EJECUTAR APLICACIÓN
 
@@ -5,6 +21,7 @@
 - Clonar .env.template a .env
 - Ejecutar npm install
 - Ejecutar npm run dev
+- Ejecutar ngrok http 3000 -> Leer sección  "#TOKEN DE ACCESO"
 
 # PASOS DE CONFIGURACIÓN 
 
