@@ -8,7 +8,7 @@
 
 # PASOS DE CONFIGURACIÓN 
 
-# -- NGROK 
+## NGROK 
 - ngrok para tunneling (install) : nos permitira hacer publico nuestro puerto en internet
     1. Descargar ngrok https://dashboard.ngrok.com/get-started/setup/windows
     2. Crear en C:\Development\ngrok y pegar ahí ngrok.exe
@@ -21,7 +21,7 @@
          . ngrok config add-authtoken "TOKEN_DE_ACCESO"
     -- Por ultimo ejecuta en la terminal "ngrok http 3000"  ,  "3000" es el puerto que vas a exponer a internet
 
-#  --- WEBHOOK GITHUB ----
+# WEBHOOK GITHUB 
 
     - En tu repositorio creado ir Settings
     - En el menu lateral buscar webhooks
@@ -34,7 +34,7 @@
         - Para esta app se uso el Issues y Star
     - Por ultimo click en "Add webhook"
 
-#  --- WEBHOOK DISCORD -- 
+# WEBHOOK DISCORD 
 
      - En discord crear un canal
      - En el canal creado, click derecho, ir a "Ajuster del servidor -> Vista general"
@@ -45,14 +45,14 @@
      - Si gustas puedes cambiar el nombre, en canal seleccionar #general
      - Por ultimo dar click en el boton Copiar URL de webhook
 
-# -- .ENV --- 
+# .ENV
     - En tus variables de enterno, crear uno nuevo para el url de discord
     Ejemplo:
     
     DISCORD_WEBHOOK_URL='TU_URL_QUE_TE_BRINDA'
     SECRET_TOKEN=LLAVE_SECRETA_WEBHOOK_GITHUB
 
- # -- AUTH WEBHOOK -- 
+ # AUTH WEBHOOK
 
     - Para que nuestro webhook solo permita peticiones desde nuestro github y que no cualquiera pueda usar nu estro servicio, este nos brinda la opción de colocar un token secret
 
