@@ -10,10 +10,10 @@
 
 # -- NGROK 
 - ngrok para tunneling (install) : nos permitira hacer publico nuestro puerto en internet
-    -- Descargar ngrok https://dashboard.ngrok.com/get-started/setup/windows
-    -- Crear en C:\Development\ngrok y pegar ahí ngrok.exe
-    -- Crear una nueva variable de enterno en Path -> C:\Development\ngro
-    -- en CMD ejecutar ngrok version , para asegurarnos que esta instalado
+    1. Descargar ngrok https://dashboard.ngrok.com/get-started/setup/windows
+    2. Crear en C:\Development\ngrok y pegar ahí ngrok.exe
+    3. Crear una nueva variable de enterno en Path -> C:\Development\ngro
+    4. en CMD ejecutar ngrok version , para asegurarnos que esta instalado
 
     --- TOKEN DE ACCESO 
       - En la pagina de ngrok https://dashboard.ngrok.com/get-started/setup/windows
